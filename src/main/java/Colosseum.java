@@ -73,10 +73,14 @@ public class Colosseum {
      */
     public static Pokemon buildPokemon() {
         Pokemon tempPokemon = new Pokemon();
+        int attack = MAX_HIT_POINTS;
+        int defense = MAX_HIT_POINTS - attack;
+
+
         return tempPokemon;
     }
 
-    /**
+    /**+ff
      * Prints who is ahead.
      * <p>
      * Compares the two Pokemon to see if there's a tie, or if a pokemon is currently winning.
@@ -90,7 +94,7 @@ public class Colosseum {
      * Implement this function.
      */
     public static void printWhoIsAhead() {
-        System.out.println("Implement me!");
+        System.out.println("" + " is currently head");
     }
 
     /**
